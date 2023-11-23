@@ -6,6 +6,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - urql
 - tailwindcss
 
-# なにがしたかったか
+# やったこと
 
-サーバーコンポーネントでurqlを使ってGraphQLのデータを取得する。
+サーバーコンポーネントでurqlを使ってGraphQLのデータを取得。
+モーダルをIntercepting RoutesとParallel Routesで実装。
