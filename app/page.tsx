@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default async function Home() {
-  const result = await getClient().query(GetPokemonList, { first: 10 });
+  const result = await getClient().query(GetPokemonList, { first: 151 });
 
   return (
     <main>

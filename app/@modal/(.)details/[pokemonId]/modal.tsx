@@ -47,9 +47,9 @@ export const PokemonModal = ({ pokemon }: Props) => {
         onClick={onOutsideClick}
       >
         {/* 中身 */}
-        <div className="bg-white rounded-lg z-10 h-[calc(100dvh-32px)] w-[calc(100vw-32px)] md:h-[calc(100dvh-128px)] md:w-[calc(100vw-128px)]">
+        <div className="bg-white rounded-lg z-10 max-h-[calc(100dvh-32px)] w-[calc(100vw-32px)] md:h-[calc(100dvh-128px)] md:w-[calc(100vw-128px)]">
           <div className="p-8 grid grid-cols-1 md:grid-cols-2 h-full">
-            <div className="relative">
+            <div className="relative min-h-[200px]">
               <Image
                 src={pokemon.image}
                 alt={pokemon.name}
